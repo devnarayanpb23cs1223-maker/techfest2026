@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechFest 2026 - Registration</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>TechFest 2026</h1>
+        <p>Participant Registration</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="register.html">Register</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <section>
+            <h2>TechFest 2026 Registration Form</h2>
+
+            <form>
+
+                <!-- Name -->
+                <label for="name">Full Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@gmail.com"
+                    required
+                >
+
+                <br><br>
+
+                <!-- Mobile -->
+                <label for="mobile">Mobile Number:</label>
+                <input
+                    type="tel"
+                    id="mobile"
+                    name="mobile"
+                    placeholder="Enter your mobile number"
+                    required
+                >
+
+                <br><br>
+
+                <!-- Date of Birth -->
+                <label for="dob">Date of Birth:</label>
+                <input
+                    type="date"
+                    id="dob"
+                    name="dob"
+                    required
+                >
+
+                <br><br>
+
+                <!-- Gender -->
+                <p>Gender:</p>
+
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <!-- Department -->
+                <label for="department">Department:</label>
+
+                <select id="department" name="department" required>
+
+                    <option value="">-- Select Department --</option>
+                    <option value="CSE">Computer Science and Engineering</option>
+                    <option value="ECE">Electronics and Communication Engineering</option>
+                    <option value="EEE">Electrical and Electronics Engineering</option>
+                    <option value="ME">Mechanical Engineering</option>
+                    <option value="CE">Civil Engineering</option>
+
+                </select>
+
+                <br><br>
+
+                <!-- Events -->
+                <p>Select Events:</p>
+
+                <input type="checkbox" id="coding" name="events" value="Coding">
+                <label for="coding">Coding Challenge</label>
+
+                <br>
+
+                <input type="checkbox" id="robotics" name="events" value="Robotics">
+                <label for="robotics">Robotics</label>
+
+                <br>
+
+                <input type="checkbox" id="web" name="events" value="Web Development">
+                <label for="web">Web Development</label>
+
+                <br>
+
+                <input type="checkbox" id="cultural" name="events" value="Cultural">
+                <label for="cultural">Cultural Events</label>
+
+                <br><br>
+
+                <!-- Message -->
+                <label for="message">Additional Information:</label>
+
+                <br>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="40"
+                    placeholder="Enter any additional information">
+                </textarea>
+
+                <br><br>
+
+                <!-- Submit -->
+                <button type="submit">Register Now</button>
+
+                <!-- Reset -->
+                <button type="reset">Clear Form</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 TechFest | Mar Baselios College of Engineering and Technology</p>
+    </footer>
+
+</body>
+
+</html>
